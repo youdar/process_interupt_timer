@@ -7,7 +7,7 @@ For example if you build [Prefect.io](https://www.prefect.io/) flows and want to
 
 ### Installation
 directly from git:    
-`pip3 install git+git@github.com:youdar/process_interupt_timer.git`
+`pip3 install git+git://github.com/youdar/process_interupt_timer.git`
 
 One can also download the code and 
 `pip3 install <path>/process_interupt_timer`
