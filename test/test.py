@@ -8,10 +8,8 @@ def loop(n):
         time.sleep(1)
 
 
-o = ProcessTimeOut()
-
-
 def test_exception_raised():
+    o = ProcessTimeOut()
     try:
         o.start_timer(2)
         loop(4)
@@ -20,7 +18,9 @@ def test_exception_raised():
 
 
 def test_cancel_process_timer():
+    o = ProcessTimeOut()
     o.start_timer(4)
     loop(2)
     o.clear_timer()
     loop(2)
+
